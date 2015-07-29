@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+		<!--Admin Related tags-->
+
+	<servlet>
+		<servlet-name>GroupDetails1</servlet-name>
+		<servlet-class>com.action.admin.GroupDetails</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GroupDetails1</servlet-name>
+		<url-pattern>/GroupDetails1</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.action.admin.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AdminProfile</servlet-name>
+		<servlet-class>com.action.admin.Profile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminProfile</servlet-name>
+		<url-pattern>/AdminProfile</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditProfile1</servlet-name>
+		<servlet-class>com.action.admin.EditProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditProfile1</servlet-name>
+		<url-pattern>/EditProfile1</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ChangePass1</servlet-name>
+		<servlet-class>com.action.admin.ChangePass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass1</servlet-name>
+		<url-pattern>/ChangePass1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UserList</servlet-name>
+		<servlet-class>com.action.admin.UserList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserList</servlet-name>
+		<url-pattern>/UserList</url-pattern>
+	</servlet-mapping>
+	
+	<!--User  tags-->
+	
+	<servlet>
+		<servlet-name>UserLogin</servlet-name>
+		<servlet-class>com.action.user.UserLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserLogin</servlet-name>
+		<url-pattern>/UserLogin</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>Register</servlet-name>
+		<servlet-class>com.action.user.Register</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/Register</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>UserProfile</servlet-name>
+		<servlet-class>com.action.user.Profile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserProfile</servlet-name>
+		<url-pattern>/UserProfile</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>EditProfile2</servlet-name>
+		<servlet-class>com.action.user.EditProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditProfile2</servlet-name>
+		<url-pattern>/EditProfile2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ChangePass2</servlet-name>
+		<servlet-class>com.action.user.ChangePass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass2</servlet-name>
+		<url-pattern>/ChangePass2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SignOut</servlet-name>
+		<servlet-class>com.action.user.SignOut</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SignOut</servlet-name>
+		<url-pattern>/SignOut</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Pass</servlet-name>
+		<servlet-class>com.user.util.Pass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Pass</servlet-name>
+		<url-pattern>/Pass</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DownloadFile</servlet-name>
+		<servlet-class>com.user.util.DownloadFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadFile</servlet-name>
+		<url-pattern>/DownloadFile</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>MergeImage</servlet-name>
+		<servlet-class>com.action.user.MergeImage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MergeImage</servlet-name>
+		<url-pattern>/MergeImage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SendRequest</servlet-name>
+		<servlet-class>com.action.user.SendRequest</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SendRequest</servlet-name>
+		<url-pattern>/SendRequest</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Encryption & Decryption Info -->
+	
+	<servlet>
+		<servlet-name>EncryptImage</servlet-name>
+		<servlet-class>com.action.user.EncryptImage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EncryptImage</servlet-name>
+		<url-pattern>/EncryptImage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EncryptImage1</servlet-name>
+		<servlet-class>com.action.user.EncryptImage1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EncryptImage1</servlet-name>
+		<url-pattern>/EncryptImage1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>HideData</servlet-name>
+		<servlet-class>com.action.user.HideData</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HideData</servlet-name>
+		<url-pattern>/HideData</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DecryptImage</servlet-name>
+		<servlet-class>com.action.user.DecryptImage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DecryptImage</servlet-name>
+		<url-pattern>/DecryptImage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SelectType</servlet-name>
+		<servlet-class>com.action.user.SelectType</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SelectType</servlet-name>
+		<url-pattern>/SelectType</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ColorEncryptImage</servlet-name>
+		<servlet-class>com.action.user.ColorEncryptImage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ColorEncryptImage</servlet-name>
+		<url-pattern>/ColorEncryptImage</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ComposeMail</servlet-name>
+		<servlet-class>com.action.user.ComposeMail</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ComposeMail</servlet-name>
+		<url-pattern>/ComposeMail</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
